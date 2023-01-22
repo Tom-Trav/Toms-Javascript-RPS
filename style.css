@@ -1,0 +1,66 @@
+* {
+    background: rgb(23, 47, 61)
+}
+#title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#scores {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(95, 176, 223);
+    font-weight: 1000;
+}
+#buttons, #game-output {
+    display: flex;
+    justify-content: center;
+}
+#rock-btn, #paper-btn, #scissors-btn, #manual {
+    margin: 20px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgb(95, 176, 223);
+    color:rgb(23, 47, 61);
+    border: none;
+    border-radius: 10px;
+}
+#manual {
+    background: rgb(214, 187, 99)
+}
+#game-output {
+    color:rgb(95, 176, 223);
+}
+#help {
+    display: flex;
+    justify-content: center;
+}
+#hands {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 24px;
+    max-width: 350px;
+    color:rgb(95, 176, 223)
+}
+#game-buttons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#reset-btn, #save-btn {
+    margin: 20px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgb(95, 176, 223);
+    color:rgb(23, 47, 61);
+    border: none;
+    border-radius: 10px;
+}
