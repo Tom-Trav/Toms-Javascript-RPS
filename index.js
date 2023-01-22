@@ -11,7 +11,7 @@ const choices = ["rock", "paper", "scissors"]
 //                  0       1          2
 let userChoice
 let aiChoice
-const player = "PLAYER Score: "
+const player = "USER Score: "
 const ai = "BOT Score: "
 let hands = document.getElementById("selected-hands")
 let user = 0
